@@ -10,6 +10,7 @@
 
 - Create an Account ( We won't use our Root Account to execute any task ).
 - Create an user , groups, roles and attach policies to our group and roles to allow services to connect each other.
+- We will run a Python script every Monday to use the API Youtube to get one CSV file that will be uploaded to S3 Bucket raw -> **marketing-raw**.
 - Create 2 Buckets in S3 with some folders to store our Raw Data and Master Data. We've also created an extra Bucket to store the queries that we executed in Athena.
 
 ![Bukets](https://user-images.githubusercontent.com/46005983/195052065-ed46195e-c855-4720-a3b3-ee96f02c7876.JPG)
@@ -32,5 +33,3 @@
 
 ![LambdaFunctions](https://user-images.githubusercontent.com/46005983/195052464-a120b476-833d-47ad-ab4c-25eaffbce174.JPG)
 
-- We will run a Python script every Monday to use the API Youtube to get one CSV file that will be uploaded to S3 Bucket raw -> **marketing-raw**.
- 
